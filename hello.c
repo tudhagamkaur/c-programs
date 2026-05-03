@@ -3,7 +3,7 @@ int main(){
     int marks;
     printf("enter the marks of the student");
     scanf("%d",&marks);
-    if(marks<=80&&marks>=100)
+    if(marks>=80&&marks<=100)
     {
         printf("merit");
     }
